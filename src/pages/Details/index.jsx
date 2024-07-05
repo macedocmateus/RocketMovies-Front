@@ -1,9 +1,12 @@
 import { Container } from './styles.js';
+import { Header } from '../../Components/Header/';
+import { Button } from '../../Components/Button/';
+
 export function Details() {
     return (
         <Container>
-            <h1>ola</h1>
-            <span>que difícil</span>
+            <Header></Header>
+            <Button></Button>
         </Container>
     );
 }
