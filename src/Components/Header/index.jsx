@@ -4,14 +4,22 @@ export function Header() {
     return (
         <Container>
             <Profile>
-                <img
-                    src="https://github.com/macedocmateus.png"
-                    alt="Foto do usuário"
-                />
+                <a href="#">RocketMovies</a>
+
+                <form>
+                    <input type="text" placeholder="Pesquisar pelo titulo" />
+                </form>
 
                 <div>
-                    <span>Bem-vindo</span>
-                    <strong>Mateus Macedo</strong>
+                    <div>
+                        <strong>Mateus Macedo</strong>
+                        <a href="#">sair</a>
+                    </div>
+
+                    <img
+                        src="https://github.com/macedocmateus.png"
+                        alt="Foto do usuário"
+                    />
                 </div>
             </Profile>
         </Container>
